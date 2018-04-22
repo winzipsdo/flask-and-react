@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>404 not found</title>
+    <style>
+        body{
+            font-size: 100%;
+            font-family: Serif,sans-serif;
+        }
+        p{
+            font-size: 1.2em;
+            text-align: center;
+            user-select: none;
+            z-index: 1;
+            position: relative;
+            padding: 0 1em;
+        }
+        p::before{
+            content:"";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background-color: antiquewhite;
+            z-index: -1;
+            transition: transform 0.5s;
+            transform: scaleX(0);
+            transform-origin: 100% 0;
+            border-radius: 7px;
+        }
+        p:hover::before{
+            transform-origin: 0 0;
+            transform: scaleX(1);
+        }
+        p > b{
+            font-size: 2em;
+        }
+        .container{
+            position: absolute;
+            left: 50%;
+            top: 40%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <p><b>404 not found</b></p>
+    <p>垂緌饮清露</p>
+    <p>流响出疏桐</p>
+    <p>居高声自远</p>
+    <p>非是藉秋风</p>
+</div>
+</body>
+</html>
