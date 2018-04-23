@@ -12,7 +12,6 @@
         }
         p{
             font-size: 1.2em;
-            text-align: center;
             user-select: none;
             z-index: 1;
             position: relative;
@@ -41,9 +40,20 @@
         }
         .container{
             position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             left: 50%;
-            top: 40%;
+            top: 45%;
             transform: translate(-50%,-50%);
+        }
+        #back{
+            margin: 2em;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+        #back:hover{
+            font-weight: 900;
         }
     </style>
 </head>
@@ -54,6 +64,14 @@
     <p>流响出疏桐</p>
     <p>居高声自远</p>
     <p>非是藉秋风</p>
+    <div id="back">BACK</div>
 </div>
+<script>
+    window.onload = function (e) {
+        document.querySelector("#back").addEventListener("click",function (ev) {
+            window.location.href = '/';
+        });
+    }
+</script>
 </body>
 </html>

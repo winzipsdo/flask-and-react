@@ -10,10 +10,17 @@
 
 <button id="get_test">get test</button>
 
-<script src="/static/sleep.js"></script>
+<script src="../static/sleep.js"></script>
 <script>
-    document.querySelector("#get_test").addEventListener('click',function (e) {
-        alert("hello world");
+    document.querySelector("#get_test").addEventListener("click", function () {
+        sleep.fn.post("/api/test",
+            {
+                test: "123334"
+            },
+            function (res) {
+                alert(res);
+            }
+        )
     });
 </script>
 </body>
