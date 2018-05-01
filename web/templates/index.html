@@ -13,12 +13,14 @@
 <script src="../static/sleep.js"></script>
 <script>
     document.querySelector("#get_test").addEventListener("click", function () {
-        sleep.fn.post("/api/test",
+        sleep.post("/api/test",
             {
-                test: "123334"
-            },
-            function (res) {
-                alert(res);
+                data: {
+                    test: 123
+                },
+                success: function (res) {
+                    alert(res);
+                }
             }
         )
     });

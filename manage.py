@@ -34,6 +34,12 @@ def test():
     return data
 
 
+@app.route("/api/laptops",methods=['POST'])
+def get_laptops():
+    site = request.form.get('site')
+    return site
+
+
 if __name__ == '__main__':
     # app.run(host='0.0.0.0')  # 这会让操作系统监听所有公网 IP，让自己变得公开可访问
     # app.debug = True  # 这会让服务器在代码修改后自动重新载入，并在发生错误时提供一个相当有用的调试器

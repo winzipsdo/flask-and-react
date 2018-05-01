@@ -4,9 +4,11 @@
 
 # dependencies
 node_modules/
+web/node_modules
 
 # testing
 /coverage
+Model/test.py
 
 # production
 /build

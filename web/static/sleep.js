@@ -1,11 +1,18 @@
 (function (window) {
     let sleep = {};
-    sleep.fn = {};
-    sleep.fn.post = function (url, obj, success) {
+
+    /**
+     * post function
+     * config = {
+     *      data:{},
+     *      success:func()
+     * }
+     * */
+    sleep.post = function (url, config) {
         let data = new FormData();
-        for (let i in obj) {
-            if (obj.hasOwnProperty(i)) {
-                data.append(i, obj[i]);
+        for (let i in config.data) {
+            if (config.data.hasOwnProperty(i)) {
+                data.append(i, config.data[i]);
             }
         }
         let xhr = new XMLHttpRequest();
@@ -13,7 +20,7 @@
         xhr.onreadystatechange = function (e) {
             if (xhr.readyState === 4 && xhr.status === 200) {
                 let responseJSON = JSON.parse(xhr.responseText);
-                success(responseJSON);
+                config.success(responseJSON);
             }
         };
         xhr.send(data);
