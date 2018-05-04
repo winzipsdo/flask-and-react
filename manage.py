@@ -3,8 +3,8 @@ from flask_sqlalchemy import SQLAlchemy
 from src.Models.Daily import daily_tasks
 
 app = Flask(__name__,
-            template_folder='web/templates',  # 修改templates入口
-            static_folder='web/static'  # 修改static入口
+            template_folder='web/spider/build',  # 修改templates入口
+            static_folder='web/spider/build/static'  # 修改static入口
             )
 
 # 数据库配置

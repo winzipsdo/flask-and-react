@@ -4,7 +4,8 @@
 
 # dependencies
 node_modules/
-web/spider/node_modules
+web/spider/node_modules/
+web/spider/src/Media/
 
 # testing
 /coverage
