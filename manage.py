@@ -1,7 +1,6 @@
-from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash
-import os
-import sqlite3
+from flask import Flask, request, session, g, redirect, url_for, abort, render_template
 from flask_sqlalchemy import SQLAlchemy
+from src.Models.Daily import daily_tasks
 
 app = Flask(__name__,
             template_folder='web/templates',  # 修改templates入口
@@ -44,3 +43,4 @@ if __name__ == '__main__':
     # app.run(host='0.0.0.0')  # 这会让操作系统监听所有公网 IP，让自己变得公开可访问
     # app.debug = True  # 这会让服务器在代码修改后自动重新载入，并在发生错误时提供一个相当有用的调试器
     app.run(debug=True)
+    # daily_tasks()  # 每日自动爬取的实现

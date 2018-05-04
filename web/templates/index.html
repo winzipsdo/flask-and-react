@@ -11,19 +11,6 @@
 <button id="get_test">get test</button>
 
 <script src="../static/sleep.js"></script>
-<script>
-    document.querySelector("#get_test").addEventListener("click", function () {
-        sleep.post("/api/test",
-            {
-                data: {
-                    test: 123
-                },
-                success: function (res) {
-                    alert(res);
-                }
-            }
-        )
-    });
-</script>
+
 </body>
 </html>
