@@ -14,3 +14,4 @@ if __name__ == '__main__':
         url="/notebooks/thinkpad/l-series/ThinkPad-L380-Yoga/p/22TP2TBL38020M7",
     )
     insert_subseries(subseries)
+

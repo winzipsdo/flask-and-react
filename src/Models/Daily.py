@@ -12,10 +12,10 @@ def test():
 
 def daily_crawl():
     target_sites = [
-        ['tw', 'zh'],
-        ['jp', 'ja'],
+        # ['tw', 'zh'],
+        # ['jp', 'ja'],
         ['my', 'en'],
-        ['kr', 'ko'],
+        # ['kr', 'ko'],
     ]
 
     for site in target_sites:
@@ -31,3 +31,7 @@ def daily_tasks():
     while True:
         schedule.run_pending()
         time.sleep(59)
+
+
+if __name__ == '__main__':
+    daily_crawl()

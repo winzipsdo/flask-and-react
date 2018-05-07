@@ -4,6 +4,7 @@ from src.Models.VOs.Subseries import Subseries
 from src.Models.GLOBAL import HEADERS, JSON_LAPTOPS, UNDEFINED, DOMAIN
 from src.Models.DAO import insert_subseries
 
+
 class Requester:
     count = 0
 
@@ -20,7 +21,7 @@ class Requester:
         if self.site.upper() in JSON_LAPTOPS.keys():
             json_api = JSON_LAPTOPS.get(self.site.upper())
             print('json api got: ' + json_api)  # test line
-            laptops_json = requests.get(url=json_api).json()
+            laptops_json = requests.get(url=json_api, headers={'Accept-Encoding': ''}).json()
             for series, series_data in laptops_json.items():
                 for subseries in series_data:
                     print('got: ' + subseries.get('name'))
