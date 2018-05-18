@@ -2,7 +2,6 @@
 from sqlalchemy import create_engine, Column, String, Float, Integer, Date, Text
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from src.Models.VOs.Subseries import Subseries
 
 engine = create_engine("mysql+pymysql://root:123@localhost:3306/lenovo",
                        echo=False,  # 打印数据库操作
@@ -52,7 +51,7 @@ class SubseriesModel(Base):
         self.brand = brand
         self.series = series
         self.date = date
-        self.description=description
+        self.description = description
 
 
 def insert_subseries(subseries):
