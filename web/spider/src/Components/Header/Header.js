@@ -4,20 +4,17 @@ import React, { Component } from 'react';
 export default class Header extends Component{
     constructor(props){
         super(props);
-        this.HandleClick = this.HandleClick.bind(this);
-    }
-
-    HandleClick(e){
-        alert("Larva");
     }
 
     render(){
+        const {handleClick} = this.props;
+
         return (
             <div className="Header-container">
                 <div className="Header-logo-wrapper">
                     <div className="Header-logo"/>
                     <div className="Header-title"
-                         onClick={this.HandleClick}>
+                         onClick={handleClick}>
                         Larva
                     </div>
                 </div>
@@ -25,3 +22,9 @@ export default class Header extends Component{
         )
     }
 }
+
+Header.defaultProps = {
+    handleClick: ()=>{
+        alert("ok");
+    },
+};

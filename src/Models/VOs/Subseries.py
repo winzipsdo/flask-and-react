@@ -42,12 +42,18 @@ class Subseries:
             '(https:\/\/www3.lenovo.com\/[\w]{2}\/\w{2}){0,1}\/([\w%-]*)\/{0,1}([\w%-]*)\/([\w%-]*)\/([\w%-]*)\/p\/([\w%-]*)')
         res = pattern.match(url)
         res_formatted = {
-            'domain': res[1] if res[1] else DOMAIN,
-            'spliter': res[2] if res[2] else UNDEFINED,
-            'brand': res[3] if res[3] else UNDEFINED,
-            'series': res[4] if res[4] else UNDEFINED,
-            'name': res[5] if res[5] else UNDEFINED,
-            'article_number': res[6] if res[6] else UNDEFINED
+            # 'domain': res[1] if res[1] else DOMAIN,
+            # 'spliter': res[2] if res[2] else UNDEFINED,
+            # 'brand': res[3] if res[3] else UNDEFINED,
+            # 'series': res[4] if res[4] else UNDEFINED,
+            # 'name': res[5] if res[5] else UNDEFINED,
+            # 'article_number': res[6] if res[6] else UNDEFINED
+            'domain': res[1] if res else DOMAIN,
+            'spliter': res[2] if res else UNDEFINED,
+            'brand': res[3] if res else UNDEFINED,
+            'series': res[4] if res else UNDEFINED,
+            'name': res[5] if res else UNDEFINED,
+            'article_number': res if res else UNDEFINED
         }
         return res_formatted
 

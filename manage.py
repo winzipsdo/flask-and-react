@@ -1,5 +1,7 @@
-from flask import Flask, request, session, g, redirect, url_for, abort, render_template
+from flask import Flask, request, session, g, redirect, url_for, abort, render_template, jsonify
 from flask_sqlalchemy import SQLAlchemy
+
+from src.Models.DAO import get_subseries_by_site_date
 from src.Models.Daily import daily_tasks
 
 app = Flask(__name__,
@@ -29,8 +31,12 @@ def page_not_found(error):
 
 @app.route("/api/test", methods=['GET', 'POST'])
 def test():
-    data = request.form.get('test')
-    return data
+    site = request.form.get('site')
+    date = request.form.get('date')
+
+    data = get_subseries_by_site_date(site=site,date=date)
+
+    return jsonify(data)
 
 
 @app.route("/api/laptops", methods=['POST'])
