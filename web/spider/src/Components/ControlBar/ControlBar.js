@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './ControlBar.css';
 
-import {Select, DatePicker, Button} from 'antd';
+import {Select, DatePicker, Button, Switch} from 'antd';
 
 
 export default class ControlBar extends Component {
@@ -21,11 +21,16 @@ export default class ControlBar extends Component {
         this.handleGet = this.handleGet.bind(this);
         this.handleSiteChange = this.handleSiteChange.bind(this);
         this.handleDateChange = this.handleDateChange.bind(this);
+        this.handleVisualizeChange = this.handleVisualizeChange.bind(this);
     }
 
     handleGet(){
         const {site,date} = this.state;
         this.props.handleSearch(site,date);
+    }
+
+    handleVisualizeChange(checked){
+        this.props.handleSwitch(checked);
     }
 
     handleSiteChange(value) {
@@ -42,10 +47,11 @@ export default class ControlBar extends Component {
 
     render() {
         const Option = Select.Option;
-        const {handleGet, handleSiteChange, handleDateChange} = this;
+        const {handleGet, handleSiteChange, handleDateChange, handleVisualizeChange} = this;
 
         return (
             <div className="ControlBar-container">
+
                 <Select placeholder="Select site"
                         style={{width: 120}}
                         onChange={handleSiteChange}>
@@ -54,15 +60,24 @@ export default class ControlBar extends Component {
                     <Option value="MY">Malaysia</Option>
                     <Option value="TW">Taiwan</Option>
                 </Select>
+
                 <DatePicker placeholder="Select date"
                             style={{width: 140}}
-                            onChange={handleDateChange}/>
-                <Button type="primary" onClick={handleGet}>Get</Button>
+                            onChange={handleDateChange} />
+
+                <Switch onChange={handleVisualizeChange} />
+
+                <Button type="primary"
+                        onClick={handleGet}>
+                    Get
+                </Button>
+
             </div>
         )
     }
 }
 
 ControlBar.defaultProps = {
-    handleSearch: f => f
+    handleSearch: f => f,
+    handleSwitch: f => f
 };

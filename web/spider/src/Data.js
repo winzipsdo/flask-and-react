@@ -1,5 +1,5 @@
 const data_test = [{
-    'id': 3593,
+    'key': 3593,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TBL38020M7',
@@ -13,7 +13,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>13.3型マルチモードPC</strong><br /><ul><li>利用シーンにあわせてモードを変更</li><li>安心のセキュリティ</li></ul>'
 }, {
-    'id': 3594,
+    'key': 3594,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TBL38020M5',
@@ -27,7 +27,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>13.3型ビジネスPC</strong> <ul><li>優れたコストパフォーマンス</li><li>安心のセキュリティ</li></ul>'
 }, {
-    'id': 3595,
+    'key': 3595,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TBL480',
@@ -41,7 +41,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>14.0型ビジネスノートPC</strong> <ul><li>ビジネスの生産性を高める高性能</li><li>強化されたセキュリティ</li></ul>'
 }, {
-    'id': 3596,
+    'key': 3596,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TBL580',
@@ -55,7 +55,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型ビジネスノートPC</strong> <ul><li>ビジネスの生産性を高める高性能</li><li>強化されたセキュリティ</li></ul>'
 }, {
-    'id': 3597,
+    'key': 3597,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TBL470',
@@ -69,7 +69,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>14.0型 スタンダードノート</strong> <ul><li>高い堅牢性と信頼性</li><li>高く評価されているキーボード</li></ul>'
 }, {
-    'id': 3598,
+    'key': 3598,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TBL570',
@@ -83,7 +83,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型 スタンダードノート</strong> <ul><li>高い堅牢性と信頼性</li><li>高く評価されているキーボード</li></ul>'
 }, {
-    'id': 3599,
+    'key': 3599,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TBL560',
@@ -97,7 +97,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<b>15.6型 スタンダードノート</b><br /><div>・高い堅牢性と信頼性</div><div>・高く評価されているキーボード</div>'
 }, {
-    'id': 3600,
+    'key': 3600,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP1000715',
@@ -111,7 +111,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<b>15.6型 エントリーノート</b><br />（量販店モデル）<br /><div><div>・AMDプロセッサー搭載</div><div>・優れたコストパフォーマンス</div></div>'
 }, {
-    'id': 3601,
+    'key': 3601,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP1000710',
@@ -125,7 +125,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<b>15.6型 エントリーノート</b><br />（量販店モデル）<br /><div>・AMDプロセッサー搭載</div><div>・優れたコストパフォーマンス</div>'
 }, {
-    'id': 3602,
+    'key': 3602,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88YG3000888',
@@ -139,7 +139,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>軽量で使いやすい2-in-1ノート</strong><div><ul><li>どこへでも持ち運べる軽量ボディ</li><li>4つのモードで利用可能。</li><li>快適なパフォーマンスのインテル&reg; プロセッサー搭載</li></ul></div>'
 }, {
-    'id': 3603,
+    'key': 3603,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88YG3000595',
@@ -153,7 +153,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<b>11.6型エントリーマルチモード</b><br /><div><div>・4つのモードでスタイル自由</div><div>・タッチパネルで直感的な操作</div></div>'
 }, {
-    'id': 3604,
+    'key': 3604,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88YG9000859',
@@ -167,7 +167,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>13.9型プレミアムモバイル</strong><br />【レノボ・ショッピング限定販売】<ul><li>モードを切り替えてスタイル自由</li><li>狭いベゼルのスリムな液晶</li><li>高性能フラッグシップモデル</li></ul>'
 }, {
-    'id': 3605,
+    'key': 3605,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88YG9000786',
@@ -181,7 +181,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>13.9型プレミアムモバイル</strong><ul><li>4つのモードでスタイル自由</li><li>スリムな狭額縁液晶</li><li>高性能フラッグシップモデル</li></ul>'
 }, {
-    'id': 3606,
+    'key': 3606,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP3001009',
@@ -195,7 +195,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>14型 スタンダードノート</strong><ul> <li>インテルプロセッサー搭載</li> <li>優れたパフォーマンス </li> <li>スタイリッシュなデザイン</li> </ul>'
 }, {
-    'id': 3607,
+    'key': 3607,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP3000842',
@@ -209,7 +209,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型 スタンダードノート</strong><ul><li>インテルプロセッサー搭載</li><li>優れたパフォーマンス</li><li>スタイリッシュなデザイン</li></ul>'
 }, {
-    'id': 3608,
+    'key': 3608,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP3000847',
@@ -223,7 +223,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型 スタンダードノート</strong><br />【レノボ・ショッピング限定販売】<ul><li>高性能AMDプロセッサー搭載</li><li>高解像度液晶ディスプレイ搭載</li></ul>'
 }, {
-    'id': 3609,
+    'key': 3609,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP3000850',
@@ -237,7 +237,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<b>15.6型 スタンダードノート</b><br />（量販店モデル）<br /><div>・AMDプロセッサー搭載</div><div>・AMD Radeon搭載</div>'
 }, {
-    'id': 3610,
+    'key': 3610,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP3000719',
@@ -251,7 +251,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<b>15.6型 スタンダードノート</b><br />（量販店モデル）<br /><div>・第6世代インテルプロセッサー</div><div>・Dolby&reg; Advanced Audio&trade; 搭載</div>'
 }, {
-    'id': 3611,
+    'key': 3611,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP70S0929',
@@ -265,7 +265,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>13.3型\u3000薄型モバイル</strong><br />【レノボ・ショッピング限定販売】<ul><li>最新AMD Ryzen&trade; プロセッサー搭載</li><li>アルミ仕上げのスタイリッシュデザイン</li><li>Dolby ATMOSテクノロジー、JBL スピーカー搭載</li></ul>'
 }, {
-    'id': 3612,
+    'key': 3612,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP70S0893',
@@ -279,7 +279,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>13.3型 薄型モバイル</strong><br />【レノボ・ショッピング限定販売】<ul><li>インテル&reg; Core&trade; プロセッサー搭載</li><li>アルミ仕上げのスタイリッシュデザイン</li><li>Dolby ATMOSテクノロジー、JBL スピーカー搭載</li></ul>'
 }, {
-    'id': 3613,
+    'key': 3613,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP70S0895',
@@ -293,7 +293,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型\u3000薄型ノート</strong><p>【量販店モデル】</p> <ul><li>インテル&reg; Core&trade; プロセッサー搭載</li> <li>アルミ仕上げのスタイリッシュデザイン</li> <li>Dolby ATMOSテクノロジー、JBL スピーカー搭載 </li></ul>'
 }, {
-    'id': 3614,
+    'key': 3614,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88GMY500808',
@@ -307,7 +307,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型 ゲーミングノート</strong><br />【レノボ・ショッピング限定販売】<ul><li>ゲームをカジュアルに楽しめる</li><li>効果的な放熱対策で快適に</li></ul>'
 }, {
-    'id': 3615,
+    'key': 3615,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88GMY700794',
@@ -321,7 +321,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型 ゲーミングノート</strong><br />【レノボ・ショッピング限定販売】<ul><li>高性能グラフィック搭載</li><li>超高速データ転送ストレージ</li></ul>'
 }, {
-    'id': 3616,
+    'key': 3616,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TXX16G',
@@ -335,7 +335,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>14.0型 薄型軽量モバイル</strong> <ul><li>第8世代インテル&reg; Core&trade;プロセッサー選択可能</li><li>洗練されたスタイリッシュなデザイン</li><li>HDR WQHD IPS液晶を選択可能</li></ul>'
 }, {
-    'id': 3617,
+    'key': 3617,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TXX13Y',
@@ -349,7 +349,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>14.0型 マルチモード</strong> <ul><li>第8世代インテル&reg; Core&trade;プロセッサー選択可能</li><li>利用シーンに合わせて4つのモードで使える</li><li>HDR WQHD IPS液晶を選択可能</li></ul>'
 }, {
-    'id': 3618,
+    'key': 3618,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TX2800',
@@ -363,7 +363,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>12.5型 ビジネスモバイル</strong><br /><ul><li>より軽量でスリムに進化</li><li>第8世代インテル&reg; Core&trade; プロセッサー搭載可能</li><li>約1.13kgの軽量化を実現</li></ul>'
 }, {
-    'id': 3619,
+    'key': 3619,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TXX380',
@@ -377,7 +377,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>13.3型マルチモードPC</strong><br /><ul><li>さまざまなスタイルで使える</li><li>生産性を高める豊富な機能</li><li>強化されたセキュリティ</li></ul>'
 }, {
-    'id': 3620,
+    'key': 3620,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TXX15G',
@@ -391,7 +391,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>14.0型 薄型軽量モバイル</strong><ul><li>ハイパフォーマンスモバイル</li><li>重さわずか1.13 kg～</li><li>厳格な品質テスト、高い信頼性</li></ul>'
 }, {
-    'id': 3621,
+    'key': 3621,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TXX12Y',
@@ -405,7 +405,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>14.0型 マルチモード</strong><br /><ul><li>軽量 2 in 1モバイルノート</li><li>柔軟に変えられる4つの使い方</li><li>タッチパネルで直感的な操作</li></ul>'
 }, {
-    'id': 3622,
+    'key': 3622,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TX2700',
@@ -419,7 +419,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>12.5型 ビジネスモバイル</strong><br /><ul><li>あらゆるビジネスシーンに最適</li><li>高いパフォーマンスと携帯性</li><li>厳格な品質テスト、高い信頼性</li></ul>'
 }, {
-    'id': 3623,
+    'key': 3623,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88YG7000919',
@@ -433,7 +433,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>12.5型マルチモードモバイル</strong><ul><li>第7世代インテルプCore&trade;ロセッサー</li><li>モードを切り替えてスタイル自由</li><li>薄型、軽量で持ち運びやすい</li></ul>'
 }, {
-    'id': 3624,
+    'key': 3624,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2WPP52S',
@@ -447,7 +447,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型 ワークステーション</strong><ul><li>高速なプロセッサーとグラフィックス搭載</li><li>優れたパフォーマンスとモビリティ</li></ul>'
 }, {
-    'id': 3625,
+    'key': 3625,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2WPWP51',
@@ -461,7 +461,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型 ワークステーション</strong><ul><li>モバイルXeon搭載可能</li><li>高性能グラフィックカード対応</li></ul>'
 }, {
-    'id': 3626,
+    'key': 3626,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2WPP51S',
@@ -475,7 +475,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型 ワークステーション</strong><ul><li>第7世代インテルプロセッサー</li><li>第7世代インテルプロセッサー</li></ul>'
 }, {
-    'id': 3627,
+    'key': 3627,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2WPWP71',
@@ -489,7 +489,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>17.3型 ワークステーション</strong><ul><li>モバイルXeon搭載可能</li><li>VR対応ワークステーション</li></ul>'
 }, {
-    'id': 3628,
+    'key': 3628,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2WPWP50',
@@ -503,7 +503,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型 ワークステーション</strong><ul><li>モバイルXeon搭載可能</li><li>高性能グラフィックカード対応</li></ul>'
 }, {
-    'id': 3629,
+    'key': 3629,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2WPWP70',
@@ -517,7 +517,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>17.3型 ワークステーション</strong><ul><li>モバイルXeon搭載可能</li><li>高性能グラフィックカード対応</li></ul>'
 }, {
-    'id': 3630,
+    'key': 3630,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88LG80V0853',
@@ -531,7 +531,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<ul><strong>14.0型\u3000ビジネスノート</strong><li>第7世代インテル® Core™ プロセッサー</li><li>スタイリッシュなデザイン</li><li>優れたセキュリティ</li></ul>'
 }, {
-    'id': 3631,
+    'key': 3631,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88LG80V0697',
@@ -545,7 +545,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>14.0型 スタンダードノート</strong><br /><ul><li>第6世代インテルプロセッサー</li><li>高いコストパフォーマンス</li></ul>'
 }, {
-    'id': 3632,
+    'key': 3632,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88LG80V0698',
@@ -559,7 +559,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型 スタンダードノート</strong><br />【レノボ・ショッピング限定販売】<ul><li>第6世代インテルプロセッサー</li><li>高いコストパフォーマンス</li></ul>'
 }, {
-    'id': 3633,
+    'key': 3633,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88LG80V0702',
@@ -573,7 +573,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型 スタンダードノート</strong><br />【レノボ・ショッピング限定販売】<ul><li>第7世代インテルプロセッサー</li><li>高いコストパフォーマンス</li></ul>'
 }, {
-    'id': 3634,
+    'key': 3634,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP10S0892',
@@ -587,7 +587,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>14型 スタイリッシュなノートパソコン</strong><br />【レノボ・ショッピング限定販売】<ul><li>シンプルでスタイリッシュ</li><li>鮮やかな映像のディスプレイ</li><li>優れれたコストパフォーマンス</li></ul>'
 }, {
-    'id': 3635,
+    'key': 3635,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP10S0891',
@@ -601,7 +601,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>11.6型 エントリーモバイル</strong><ul><li>コンパクトでスタイリッシュ</li><li>優れたコストパフォーマンス</li></ul>'
 }, {
-    'id': 3636,
+    'key': 3636,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP10S0803',
@@ -615,7 +615,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<b>11.6型 エントリーモバイル</b><br />（量販店モデル）<br /><div><div>・コンパクトで優れた携帯性</div><div>・優れたコストパフォーマンス</div></div>'
 }, {
-    'id': 3637,
+    'key': 3637,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TXY370',
@@ -629,7 +629,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>13.3型 マルチモード</strong><br /><ul><li>用途に合わせた自由なスタイル</li><li>タッチパネルで快適な操作性</li></ul>'
 }, {
-    'id': 3638,
+    'key': 3638,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP5000868',
@@ -643,7 +643,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型 マルチメディアノート</strong><br />【レノボ・ショッピング限定販売】<ul><li>高解像度液晶ディスプレイ搭載</li><li>優れたパフォーマンス</li><li>高品質なサウンドを実現</li></ul>'
 }, {
-    'id': 3639,
+    'key': 3639,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TEE480',
@@ -657,7 +657,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<b>14.0型 スタンダードノート</b><br /><ul><li>第8世代インテル&reg; Core&trade; プロセッサー搭載可能</li><li>ビジネスの生産性を高めるノート</li></ul>'
 }, {
-    'id': 3640,
+    'key': 3640,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TEE580',
@@ -671,7 +671,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<b>15.6型 スタンダードノート</b><br /><ul><li>第8世代インテル&reg; Core&trade; プロセッサー搭載可能</li><li>ビジネスの生産性を高めるノート</li></ul>'
 }, {
-    'id': 3641,
+    'key': 3641,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TEE470',
@@ -685,7 +685,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>14.0型 スタンダードノート</strong><br /><ul><li>第7世代インテルプロセッサー</li><li>セキュリティーに優れたノート</li></ul>'
 }, {
-    'id': 3642,
+    'key': 3642,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TEE570',
@@ -699,7 +699,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型 スタンダードノート</strong><br /><ul><li>第7世代インテルプロセッサー</li><li>セキュリティーに優れたノート</li></ul>'
 }, {
-    'id': 3643,
+    'key': 3643,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TEE575',
@@ -713,7 +713,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型 スタンダードノート</strong><br /><ul><li>AMDプラットフォーム搭載</li><li>ビジネスシーンを快適にする</li></ul>'
 }, {
-    'id': 3644,
+    'key': 3644,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88ELC1S9998',
@@ -727,7 +727,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<b>11.6型</b><br /><ul> <li>Chrome OS搭載 2 in 1</li> <li>Lenovo 電子ペン添付</li> <li>堅牢性に優れたボディ</li> </ul>'
 }, {
-    'id': 3645,
+    'key': 3645,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88ELC1S9997',
@@ -741,7 +741,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<b>11.6型</b><br /><ul> <li>Chrome OS搭載 2 in 1</li> <li>10点マルチタッチ対応</li> <li>堅牢性に優れたボディ</li> </ul>'
 }, {
-    'id': 3646,
+    'key': 3646,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88EL10S1024',
@@ -755,7 +755,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<b>11.6型</b><br /><div>・モードを切り替え可能</div><div>・堅牢性に優れた筐体</div><div>・長時間バッテリ駆動</div>'
 }, {
-    'id': 3647,
+    'key': 3647,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88EL10S0898',
@@ -769,7 +769,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<b>11.6型</b><br /><div>・4つのモードで利用可能</div><div>・堅牢性に優れた設計</div><div>・ペン入力にも対応</div>'
 }, {
-    'id': 3648,
+    'key': 3648,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TT480S',
@@ -783,7 +783,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<b>14.0型 ハイスペックモバイル</b><br /> <ul> <li>軽量、薄型のデザイン</li> <li>第8世代インテル&reg; Core&trade; プロセッサー搭載可能</li> <li>高性能グラフィック NVIDIA Geforce 選択可能</li> </ul>'
 }, {
-    'id': 3649,
+    'key': 3649,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TT4800',
@@ -797,7 +797,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>14.0型 ハイパフォーマンス</strong><ul><li>第8世代インテル&reg; Core&trade; プロセッサー搭載可能</li><li>強化されたセキュリティ</li><li>厳格な品質テスト、高い信頼性</li></ul>'
 }, {
-    'id': 3650,
+    'key': 3650,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TT5800',
@@ -811,7 +811,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>15.6型 ハイパフォーマンス</strong><ul><li>高解像度のUltra HD IPS液晶を選択可能</li><li>第8世代インテル&reg; Core&trade; プロセッサー搭載可能</li><li>強化されたセキュリティ</li></ul>'
 }, {
-    'id': 3651,
+    'key': 3651,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TT470S',
@@ -825,7 +825,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>14.0型 ハイパフォーマンス</strong><br /><ul><li>モバイルからデスクワークまで</li><li>あらゆるビジネスシーンに最適</li><li>厳格な品質テスト、高い信頼性</li></ul>'
 }, {
-    'id': 3652,
+    'key': 3652,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TAA475',
@@ -839,7 +839,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>1４.0型 ビジネスノート</strong><br /><ul><li>最新のAMDプロセッサー搭載</li><li>パワフルなパフォーマンス</li><li>高度なセキュリティと高い信頼性</li></ul>'
 }, {
-    'id': 3653,
+    'key': 3653,
     'site': 'jp',
     'language': 'ja',
     'article_number': '22TP2TA2750',
@@ -853,7 +853,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>12.5型 ビジネスモバイル</strong><br /><ul><li>最新のAMDプロセッサー搭載</li><li>高いパフォーマンスと携帯性</li><li>高度なセキュリティと高い信頼性</li></ul>'
 }, {
-    'id': 3654,
+    'key': 3654,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP30S0987',
@@ -867,7 +867,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '14型スリムノート<br />【レノボ・ショッピング限定販売】 <ul> <li>薄くて軽い、ナローベゼル</li> <li>鮮明な FHD IPS液晶</li> <li>豊富なCPUをラインアップ</li> </ul>'
 }, {
-    'id': 3655,
+    'key': 3655,
     'site': 'jp',
     'language': 'ja',
     'article_number': '88IP30S0902',
@@ -881,7 +881,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<ul>13.3型エントリーノート<li>スリムでコンパクト</li><li>スタイリッシュなデザイン</li><li>パワフルなプロセッサー</li></ul>'
 }, {
-    'id': 3656,
+    'key': 3656,
     'site': 'jp',
     'language': 'ja',
     'article_number': 'ZZITZTOYB1F',
@@ -895,7 +895,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>10.1型 2in1タブレット</strong><br />（Wi-Fiモデル）<ul><li>BOOK UI(Android)</li><li>長時間バッテリー駆動</li></ul>'
 }, {
-    'id': 3657,
+    'key': 3657,
     'site': 'jp',
     'language': 'ja',
     'article_number': 'ZZITZTOYB1L',
@@ -909,7 +909,7 @@ const data_test = [{
     'date': '2018-05-27',
     'description': '<strong>10.1型 2in1タブレット</strong><br />（LTE対応モデル）<ul><li>BOOK UI(Android)</li><li>長時間バッテリー駆動</li></ul>'
 }, {
-    'id': 3658,
+    'key': 3658,
     'site': 'jp',
     'language': 'ja',
     'article_number': 'ZZITZTWYB2L',
